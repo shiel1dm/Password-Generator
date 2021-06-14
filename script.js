@@ -36,7 +36,7 @@ function generatePassword(){
       char.push(...special)
     }
     if (!lcase && !upcase && !specialcase){
-      alert('This is going to be a pretty easy password to guess...')
+      alert('No password criteria was selected. Please refresh your browser and try again.')
        
       return
     }
